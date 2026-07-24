@@ -1,0 +1,7 @@
+interface:
+  display_name: "Purpose-Aware Harness Evaluator"
+  short_description: "Evaluate coding-agent harness capability, purpose fit, and delivery friction"
+  default_prompt: "$repo-harness-evaluator evaluate the current repository"
+
+policy:
+  allow_implicit_invocation: false

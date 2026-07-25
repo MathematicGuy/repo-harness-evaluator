@@ -23,8 +23,10 @@ Risk, autonomy, team concurrency, sensitive data, and reuse overlays raise speci
 
 ## Model topology
 
-- Coordinator: `gpt-5.6-sol`, reasoning `high`.
-- Specialists: `gpt-5.6-terra`, reasoning `high`.
+This skill is model-agnostic: it works with any coordinator and specialist models your harness supports. The values below are an example configuration (using the `gpt-5.6` family) — substitute your own models and reasoning settings.
+
+- Coordinator (example): `gpt-5.6-sol`, reasoning `high`.
+- Specialists (example): `gpt-5.6-terra`, reasoning `high`.
 - Specialist sandboxes: read-only.
 - Maximum concurrent specialist threads: 6.
 - Detailed audits run in waves.
